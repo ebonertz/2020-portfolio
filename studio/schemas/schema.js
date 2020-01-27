@@ -36,6 +36,23 @@ export default createSchema({
     category,
     person,
     project,
-    siteSettings
+    siteSettings,
+    {
+    name: 'post',
+    type: 'document',
+    title: 'Post',
+    fields: [
+        {
+        name:'title',
+        title: 'Title',
+        type:'string'
+    },
+    {
+        name:'body',
+        title:'Title',
+        type:'string'
+    }
+    ]
+    }
   ])
 })
