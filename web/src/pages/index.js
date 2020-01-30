@@ -88,8 +88,9 @@ const IndexPage = props => {
     <Layout>
       <SEO title={site.title} description={site.description} keywords={site.keywords} />
       <Container>
-        <h1>Welcome to {site.title}</h1>
+        <h1>{site.title}</h1>
         <h2>{site.subtitle}</h2>
+        <p>{site.description}</p>
 
         {projectNodes && (
           <ProjectPreviewGrid
