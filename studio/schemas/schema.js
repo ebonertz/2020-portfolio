@@ -9,6 +9,8 @@ import category from './documents/category'
 import person from './documents/person'
 import project from './documents/project'
 import siteSettings from './documents/siteSettings'
+import post from './post'
+import author from './author'
 
 // Object types
 import bioPortableText from './objects/bioPortableText'
@@ -16,6 +18,7 @@ import figure from './objects/figure'
 import projectMember from './objects/projectMember'
 import projectPortableText from './objects/projectPortableText'
 import simplePortableText from './objects/simplePortableText'
+
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -37,22 +40,7 @@ export default createSchema({
     person,
     project,
     siteSettings,
-    {
-    name: 'post',
-    type: 'document',
-    title: 'Post',
-    fields: [
-        {
-        name:'title',
-        title: 'Title',
-        type:'string'
-    },
-    {
-        name:'body',
-        title:'Title',
-        type:'string'
-    }
-    ]
-    }
+    post,
+    author
   ])
 })
