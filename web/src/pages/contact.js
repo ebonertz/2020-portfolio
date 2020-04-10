@@ -25,6 +25,7 @@ const ContactPage = props => {
       <Container>
         <h1 className={responsiveTitle1}> Contact Me</h1>
         <p className="email"> bonertz.unc@gmail.com</p>
+        <p className="phone">919-593-7333</p>
       </Container>
     </Layout>
   )
