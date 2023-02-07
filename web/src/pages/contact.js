@@ -23,9 +23,22 @@ const ContactPage = props => {
     <Layout>
       <SEO title='Contact' />
       <Container>
-        <h1 className={responsiveTitle1}> Contact Me</h1>
+        <h1 className={responsiveTitle1}> Contact Info</h1>
+        <p className="name">Evan Bonertz</p>
         <p className="email"> bonertz.unc@gmail.com</p>
         <p className="phone">919-593-7333</p>
+        <p className="address"> Raleigh, NC </p>
+        <div >
+          <a href="https://twitter.com/eebdev" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/color/48/000000/twitter.png" alt="twitter" />
+          </a>
+          <a href="https://www.linkedin.com/in/ebonertz/" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedin" />
+          </a>
+          <a href="https://github.com/ebonertz" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/color/48/000000/github.png" alt="github" />
+          </a>
+        </div>
       </Container>
     </Layout>
   )
