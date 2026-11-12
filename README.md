@@ -2,7 +2,7 @@
 
 ## 2026 portfolio refresh
 
-The current recruiter-facing site is in [`portfolio-2026/`](portfolio-2026/). It is a static HTML/CSS/JavaScript site with no CMS or build dependencies. The root [`netlify.toml`](netlify.toml) configures Netlify to publish that directory. The original Gatsby and Sanity implementation remains in `web/` and `studio/` for reference.
+The proposed recruiter-facing site is in [`portfolio-2026/`](portfolio-2026/). It is a static HTML/CSS/JavaScript site with no CMS or build dependencies. The root [`netlify.toml`](netlify.toml) configures Netlify to publish that directory. The original Gatsby and Sanity implementation remains in `web/` and `studio/` for reference.
 
 The content should be reviewed for confidentiality before production deployment. The 2026 site has no résumé download yet.
 
