@@ -1,5 +1,8 @@
 document.getElementById('year').textContent = new Date().getFullYear()
 
+const printResume = document.getElementById('print-resume')
+if (printResume) printResume.addEventListener('click', () => window.print())
+
 const sections = document.querySelectorAll('main section[id]')
 const links = document.querySelectorAll('nav a[href^="#"]')
 if ('IntersectionObserver' in window) {
