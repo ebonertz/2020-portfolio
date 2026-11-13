@@ -58,6 +58,7 @@ footer{background:#081321;color:#aabac9}
 @media(max-width:650px){.ez-feature-actions{align-items:flex-start;flex-direction:column}.ez-feature-panel{padding:23px}.ez-panel-main strong{font-size:38px}}
 
 /* Personal photography and EZ Vibes identity. */
+.hero h1{font-family:'DM Sans',Arial,sans-serif;font-weight:700;color:#fff}
 .hero-portrait{margin:0;padding:clamp(22px,3vw,36px);background:#152b42;isolation:isolate}
 .hero-portrait:before{content:'';position:absolute;inset:35% 0 0;width:auto;aspect-ratio:auto;left:0;top:35%;border:0;border-radius:0;opacity:1;background:linear-gradient(transparent,#081321d9);z-index:1}
 .hero-portrait:after{content:none}
